@@ -1,0 +1,46 @@
+@media screen and (min-width: 800px) {
+  .head {
+    padding-top: 100px;
+  }
+  .contener {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+  .contener p {
+    font-size: 2em;
+  }
+  .textSide {
+    margin-right: 7vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contener {
+    text-align: center;
+  }
+  .head {
+    padding-top: 100px;
+  }
+
+  img {
+    width: 35vw;
+    padding-left: 7vw;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  .contener p {
+    font-size: 2em;
+  }
+  .contenar {
+    text-align: center;
+    margin: 10px;
+  }
+  iframe {
+    width: 80vw;
+  }
+}

@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1px;
+  position: sticky;
+  width: 100%;
+  z-index: 999;
+}
+.navUl {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+}
+.navUl a {
+  margin: auto 5px;
+  color: #000;
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 1px;
+  padding: 0 5px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.navUl a:hover {
+  color: #000;
+  border: 3px solid #000;
+}

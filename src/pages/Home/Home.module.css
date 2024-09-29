@@ -1,0 +1,74 @@
+header {
+  color: #fff;
+  background-image: url("img/headers-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.headerText h1 {
+  font-size: 90px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.headerText {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+}
+.aboutUsSection {
+  background-image: url("./img/about-backaground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutUsSectionText {
+  width: 50%;
+  background-color: rgba(225, 225, 225, 0.5);
+  margin-right: 20px;
+  padding: 25px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+.doSection {
+  height: 6vw;
+  background-color: rgb(115, 195, 235);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+}
+.doSection button {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  padding: 7px 16px;
+  font-size: 1.2em;
+}
+.doSection button:hover {
+  cursor: pointer;
+}
+/* servicesSection */
+.servicesSectionHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.servicesSection p,
+.servicesSection h2 {
+  margin: 5px 0;
+}
+.OurServices {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 20px;
+}
+.services img {
+  width: 100px;
+}

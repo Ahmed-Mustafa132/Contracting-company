@@ -1,0 +1,43 @@
+.contener {
+  text-align: right;
+}
+.header {
+  text-align: right;
+  padding: 50px;
+  background: url("./img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    background-color: rgba(256, 256, 256, 0.5);
+    padding: 20px;
+  }
+
+  .header p {
+    background-color: rgba(256, 256, 256, 0.5);
+    padding: 20px;
+  }
+  .allAbout {
+    background-color: rgb(170, 182, 178);
+    margin: 50px;
+    padding: 50px;
+    text-align: right;
+  }
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    background-color: rgba(256, 256, 256, 0.2);
+  }
+
+  .header p {
+    background-color: rgba(256, 256, 256, 0.2);
+
+    padding: 0 100px;
+  }
+  .allAbout {
+    background-color: rgb(170, 182, 178);
+    margin: 50px;
+    padding: 50px;
+  }
+}
